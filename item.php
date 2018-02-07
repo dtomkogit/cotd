@@ -72,7 +72,7 @@ if ( $_SESSION['SELECTOR'] == "pets" ) {
 } else {
   $help = $help. ".";
 }
-$help = $help." To navigate, swipe left/right or click the arrow buttons.";
+$help = $help." To navigate, press RED button.";
 $help = $help." Click About to find about me. Like your favourites by clicking the hearts and pressing Save.";
 if ( $_SESSION['DB'] == 'true' ) {
 	$help = $help." Your ratings revise the rankings.";
